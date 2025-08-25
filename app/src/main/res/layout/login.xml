@@ -1,0 +1,149 @@
+<!-- app/src/main/res/layout/activity_login.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title -->
+
+    <!-- Input fields and button -->
+
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="Login"
+        android:textColor="#0073cf"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/inputContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginTitle">
+
+    </LinearLayout>
+
+    <!-- Bottom sign up link -->
+    <LinearLayout
+        android:id="@+id/signUpContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="359dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#0073cf"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="348dp"
+        android:layout_height="54dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="347dp"
+        android:layout_height="51dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <TextView
+        android:id="@+id/dontHaveAccountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an Account? "
+        android:textColor="#737171"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <TextView
+        android:id="@+id/signUpLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Sign Up"
+        android:textColor="#0073cf"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="714dp"
+        android:layout_height="420dp"
+        app:srcCompat="@drawable/login_backgrnd"
+        tools:layout_editor_absoluteX="-152dp"
+        tools:layout_editor_absoluteY="-160dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DocLink"
+        android:textColor="#FBF8F8"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="425dp"
+        android:layout_height="132dp"
+        app:srcCompat="@drawable/social"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="170dp"
+        android:layout_height="212dp"
+        android:rotationX="8"
+        android:rotationY="-178"
+        app:srcCompat="@drawable/logo_topic"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
