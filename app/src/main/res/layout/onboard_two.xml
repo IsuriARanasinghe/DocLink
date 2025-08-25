@@ -39,7 +39,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="See ratings & reviews \n                           before booking"
+        android:text="@string/see_ratings_reviews_n_before_booking"
         android:textAlignment="center"
         android:textColor="#5072a7 "
         android:textSize="23dp"

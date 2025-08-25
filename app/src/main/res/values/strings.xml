@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DocLink</string>
+    <string name="see_ratings_reviews_n_before_booking"><![CDATA[See ratings & reviews \n before booking]]></string>
 </resources>
